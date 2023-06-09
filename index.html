@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>~ RedSun ~</title>
+  <link rel="stylesheet" href="assets/css/StyleBasic.css">
+  <style>
+    .info-box {
+      border: 1px solid black;
+      padding: 10%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-bottom: 3%;
+      margin-top: 3%;
+
+    }
+    
+    .image-container {
+      text-align: center;
+    }
+    
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <button id="btn-scroll-top">Subir</button>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <a class="logo">Bienvenido</a>
+        <img src="assets\img\RedSun.png" href="index.html" width="150" height="150">
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="Pagina1.html">información</a>
+        </li>
+        <li>
+          <a href="Pagina2.html">Equipos</a>
+          <div class="dropdown-content">
+          <!--  <a href="#microinversores">Microinversores</a>
+            <a href="#accesorios">Accesorios</a>-->
+          </div>
+        </li>
+        <li>
+          <a href="Pagina3.html">Proyectos</a>
+          <div class="dropdown-content">
+          <!--  <a href="#">Administracíon</a>
+            <a href="#">Gestion</a>-->
+          </div>
+        </li>
+        <li>
+          <a href="Pagina4.html">Soporte Tecnico</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido de la página -->
+  <div class="content">
+    <h1 class="center">Bienvenido a RedSun</h1>
+    <p>Conecte su vida con el medio ambiente asegurando un mejor futuro sustentable siendo participe
+      del avance tecnologico con la Energia Fotovoltaica.</p>
+    
+    <div class="info-box">
+      <h2 class="center">Aspectos Relevantes</h2>
+      <p>La empresa RedSun esta encargada de realizar la planeación, Administracíon/gestión y soporte para todas aquellas personas
+        que posean o deseen tener un servicio de Energia renovable. La energía fotovoltaica se basa en el principio de la conversión directa de la luz solar en electricidad mediante el uso de células fotovoltaicas, también conocidas como paneles solares. Estas células están compuestas principalmente de silicio, un material semiconductor que tiene la capacidad de generar electricidad cuando la luz incide sobre él.
+        Cuando la luz solar llega a un panel solar fotovoltaico, los fotones de luz interactúan con los electrones presentes en las células fotovoltaicas, liberando electrones del átomo de silicio. Estos electrones liberados crean un flujo de corriente eléctrica. Las células fotovoltaicas están diseñadas con una estructura de capas de materiales con diferentes características eléctricas, lo que permite la generación de un campo eléctrico que ayuda a recoger los electrones liberados y dirigirlos en una dirección específica.<br><br>
+        Los paneles solares están conectados en serie o en paralelo para formar un sistema de panel solar. Varios paneles solares se agrupan para aumentar la generación de electricidad. En un sistema de panel solar, los paneles están montados en una estructura que los coloca en una posición óptima para recibir la máxima cantidad de luz solar durante el día.
+        La electricidad generada por los paneles solares es de corriente continua (CC). Sin embargo, en la mayoría de las aplicaciones residenciales y comerciales, se requiere corriente alterna (CA) para alimentar los electrodomésticos y otros dispositivos eléctricos. Por lo tanto, se utiliza un inversor solar que convierte la corriente continua en corriente alterna.
+        El sistema de panel solar también incluye otros componentes, como reguladores de carga, baterías y medidores, dependiendo de si se desea almacenar la electricidad generada o conectar el sistema a la red eléctrica convencional.
+        En resumen, la energía fotovoltaica se genera a través de células fotovoltaicas que convierten la luz solar en electricidad. Los paneles solares agrupan estas células, formando un sistema que puede generar electricidad para su uso en diferentes aplicaciones..</p>
+    </div>
+    
+    <div class="image-container">
+      <img src="assets\img\panel-solar-1.jpg" alt="Descripción de la imagen">
+      <img src="assets\img\panel-solar-2.jpg" alt="Descripción de la imagen">
+      <img src="assets\img\panel-solar-3.jpg" alt="Descripción de la imagen">
+    </div>
+  </div>
+
+    <div class="info-box">
+      <h2>Para conocer más al respecto...</h2>
+      <p>Puede revisar los siguientes apartados de esta página:<br><br></p>
+        <div>
+          <a href="Pagina1.html">Información sobre Paneles solares</a>
+        </div>
+        <div>
+          <a href="Pagina2.html">Información sobre los Equipos</a>
+        </div>
+        <div>
+          <a href="Pagina3.html">Información sobre La Gestión y Administracíon</a>
+        </div>
+        <div>
+          <a href="Pagina4.html">Información sobre Soporte al Usuario</a>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="pp" id="pp">
+      <img src="assets\img\RedSun.png" width="90" height="90">
+    </div>
+    <div>
+      <p>Urb. Los Mangos, Parraquia Idelfonso Vasquez</p>
+      <p>Teléfono: +58 412-0704370</p>
+      <p>Email: luiseduardorinconluzardo@redsun.family</p>
+    </div>
+    <p>&copy; 2023 Nombre de la Marca. Todos los derechos reservados.</p>
+  </footer>
+</body>
+<script>
+
+
+  // Botón de scroll hasta arriba
+  const btnScrollTop = document.getElementById('btn-scroll-top');
+  btnScrollTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+</html>

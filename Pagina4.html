@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>~ RedSun ~</title>
+  <link rel="stylesheet" href="assets/css/StyleBasic.css">
+  <style>
+    .info-box {
+      border: 1px solid black;
+      padding: 10%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-bottom: 3%;
+      margin-top: 3%;
+
+    }
+    
+    .image-container {
+      text-align: center;
+    }
+    
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <button id="btn-scroll-top">Subir</button>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <a class="logo">Soporte</a>
+        <img src="assets\img\RedSun.png" href="index.html" width="150" height="150">
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="Pagina1.html">información</a>
+        </li>
+        <li>
+          <a href="Pagina2.html">Equipos</a>
+          <div class="dropdown-content">
+          <!--  <a href="#microinversores">Microinversores</a>
+            <a href="#accesorios">Accesorios</a>-->
+          </div>
+        </li>
+        <li>
+          <a href="Pagina3.html">Proyectos</a>
+          <div class="dropdown-content">
+          <!--  <a href="#">Administracíon</a>
+            <a href="#">Gestion</a>-->
+          </div>
+        </li>
+        <li>
+          <a href="Pagina4.html">Soporte Tecnico</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido de la página -->
+  <div class="content">
+    <h1 class="center">Bienvenido a RedSun</h1>
+    <p>Conecte su vida con el medio ambiente asegurando un mejor futuro sustentable siendo participe
+      del avance tecnologico con la Energia Fotovoltaica.</p>
+    
+    <div class="info-box">
+      <h2 class="center">Aspectos Relevantes</h2>
+      <p>La empresa RedSun esta encargada de realizar la planeación, Administracíon/gestión y soporte para todas aquellas personas
+        que posean o deseen tener un servicio de Energia renovable. Aqui abajo encontraran todas los metodos en la que puede contactarnos, de haber alguna inquietud o duda no dude en avisar, aquí en Redsun siempre podremos ayudarle. <div class="contact-info">
+          <h3>Contacto:</h3>
+          <ul>
+            <li>
+              <a href="https://wa.me/1234567890" target="_blank"><img src="assets\img\WhatsApp_icon.png" width="25" height="25" alt="WhatsApp"> WhatsApp</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/redsun_energy" target="_blank"><img src="assets\img\Instagram_icon.png.png" width="25" height="25" alt="Instagram"> Instagram</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/RedSunEnergy" target="_blank"><img src="assets\img\twitter_318-187597.png" width="25" height="25" alt="Twitter"> Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/RedSunEnergy" target="_blank"><img src="assets\img\Facebook_Logo_(2019).png" width="25" height="25" alt="Facebook"> Facebook</a>
+            </li>
+            <li>
+              <a href="https://t.me/RedSunEnergy" target="_blank"><img src="assets\img\telegram-logo-transparent-free.png" width="25" height="25" alt="Telegram"> Telegram</a>
+            </li>
+            <li>
+              <a href="mailto:luiseduardorinconluzardo@gmail.com"><img src="assets\img\gmail-logo.png" width="25" height="25" alt="Gmail"> Gmail</a>
+            </li>
+            <li>
+              <a href="mailto:luiseduardorinconluzardo@hotmail.com"><img src="assets\img\Outlook.com-Logo.wine.png" width="25" height="25" alt="Hotmail"> Hotmail</a>
+            </li>
+            <li>
+              <a href="mailto:luiseduardorinconluzardo@yahoo.com"><img src="assets\img\Yahoo-Emblem.png" width="25" height="25" alt="Yahoo"> Yahoo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    <div class="image-container">
+      <img src="assets\img\panel-solar-1.jpg" alt="Descripción de la imagen">
+      <img src="assets\img\panel-solar-2.jpg" alt="Descripción de la imagen">
+      <img src="assets\img\panel-solar-3.jpg" alt="Descripción de la imagen">
+    </div>
+  </div>
+
+    <div class="info-box">
+      <h2>Para conocer más al respecto...</h2>
+      <p>Puede revisar los siguientes apartados de esta página:<br><br></p>
+        <div>
+          <a href="Pagina1.html">Información sobre Paneles solares</a>
+        </div>
+        <div>
+          <a href="Pagina2.html">Información sobre los Equipos</a>
+        </div>
+        <div>
+          <a href="Pagina3.html">Información sobre La Gestión y Administracíon</a>
+        </div>
+        <div>
+          <a href="Pagina4.html">Información sobre Soporte al Usuario</a>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="pp" id="pp">
+      <img src="assets\img\RedSun.png" width="90" height="90">
+    </div>
+    <div>
+      <p>Urb. Los Mangos, Parraquia Idelfonso Vasquez</p>
+      <p>Teléfono: +58 412-0704370</p>
+      <p>Email: luiseduardorinconluzardo@redsun.family</p>
+    </div>
+    <p>&copy; 2023 Nombre de la Marca. Todos los derechos reservados.</p>
+  </footer>
+</body>
+<script>
+
+  // Botón de scroll hasta arriba
+  const btnScrollTop = document.getElementById('btn-scroll-top');
+  btnScrollTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+</html>
